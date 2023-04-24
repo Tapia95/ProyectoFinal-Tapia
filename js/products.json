@@ -1,0 +1,273 @@
+[
+    {
+        "id":"ComboIntel01",
+        "title":"Combo Actualizacion Intel Celeron G5905 H410 8gb",
+        "img": "./img/combos/Combo Actualizacion Intel Celeron G5905 H410 8gb Ddr4.png",
+        "category": {
+            "name": "Combos Actualizacion",
+            "id":"combos"
+        },
+        "price": 122000
+    },
+    {
+        "id":"ComboIntel02",
+        "title":"Combo Actualizacion Intel i5 11400",
+        "img": "./img/combos/COMBO MICRO INTEL I5 11400 + Z590 + 16GB.jpg",
+        "category": {
+            "name": "Combos Actualizacion",
+            "id":"combos"
+        },
+        "price": 150000
+    },
+    {
+        "id":"ComboIntel03",
+        "title":"Combo Actualizacion Intel i7 11700",
+        "img": "./img/combos/COMBO ACTUALIZACION INTEL I7 11700 8GB RAM.png",
+        "category": {
+            "name": "Combos Actualizacion",
+            "id":"combos"
+        },
+        "price": 183000
+    },
+    {
+        "id":"ComboAMD01",
+        "title":"Combo Actualizacion AMD Ryzen 5 4600g",
+        "img": "./img/combos/Combo Actualizacion AMD Ryzen 5 4600g.png",
+        "category": {
+            "name": "Combos Actualizacion",
+            "id":"combos"
+        },
+        "price": 134000
+    },
+    {
+        "id":"ComboAMD02",
+        "title":"Combo Actualizacion AMD Ryzen 5 5600g",
+        "img": "./img/combos/Combo Actualizacion Ryzen 5 5600g.jpg",
+        "category": {
+            "name": "Combos Actualizacion",
+            "id":"combos"
+        },
+        "price": 149000
+    },
+    {
+        "id":"ComboAMD03",
+        "title":"Combo Actualizacion AMD Ryzen 7 5700g",
+        "img": "./img/combos/Combo Actualizacion Amd Gamer Ryzen 7 5700g 16gb Mother Am4.png",
+        "category": {
+            "name": "Combos Actualizacion",
+            "id":"combos"
+        },
+        "price": 188000
+    },
+    {
+        "id":"PlacaNvidia01",
+        "title":"Placa de video GeForce MSI 210 1GB DDR3",
+        "img": "./img/placas de video/Placa_de_Video_GeForce_MSI_G210_1GB_DDR3_Low_Profile.jpg",
+        "category": {
+            "name": "Placas de Video",
+            "id":"placas"
+        },
+        "price": 16000
+    },
+    {
+        "id":"PlacaNvidia02",
+        "title":"Placa de Video Zotac GeForce RTX3070Ti 8GB GDDR6X Trinity",
+        "img": "./img/placas de video/Placa_de_Video_Zotac_GeForce_RTX_3070_Ti_8GB_GDDR6X_Trinity.jpg",
+        "category": {
+            "name": "Placas de Video",
+            "id":"placas"
+        },
+        "price": 258000
+    },
+    {
+        "id":"PlacaNvidia03",
+        "title":"Placa de video GALAX GeForce RTX3080 10GB GDDR6X SG LHR",
+        "img": "./img/placas de video/Placa_de_Video_GALAX_GeForce_RTX_3080_10GB_GDDR6X_SG_LHR.jpg",
+        "category": {
+            "name": "Placas de Video",
+            "id":"placas"
+        },
+        "price": 284000
+    },
+    {
+        "id":"PlacaAMD01",
+        "title":"Placa de video Asrock Radeon RX550 2GB GDDR5 Phantom Gaming",
+        "img": "./img/placas de video/Placa_de_Video_Asrock_Radeon_RX_550_2GB_GDDR5_Phantom_Gaming.jpg",
+        "category": {
+            "name": "Placas de Video",
+            "id":"placas"
+        },
+        "price": 37500
+    },
+    {
+        "id":"PlacaAMD02",
+        "title":"Placa de Video Asrock Radeon RX570 8GB GDDR5 Phantom Gaming Elite",
+        "img": "./img/placas de video/Placa_de_Video_Asrock_RX_570_8GB_GDDR5_Phantom_Gaming_Elite.jpg",
+        "category": {
+            "name": "Placas de Video",
+            "id":"placas"
+        },
+        "price": 90000
+    },
+    {
+        "id":"PlacaAMD03",
+        "title":"Placa de video XFX Radeon RX 6500XT Black 4GB GDDR6",
+        "img": "./img/placas de video/Placa_de_Video_XFX_Radeon_RX_6500_XT_Black_4GB_GDDR6.jpg",
+        "category": {
+            "name": "Placas de Video",
+            "id":"placas"
+        },
+        "price": 95500
+    },
+    {
+        "id":"gabinete01",
+        "title":"Gabinete ASUS ROG STRIX Helios Aluminum Black RGB",
+        "img": "./img/gabinetes/Gabinete_ASUS_ROG_STRIX_Helios_Aluminum_Black_RGB.jpg",
+        "category": {
+            "name": "Gabinetes",
+            "id":"gabinetes"
+        },
+        "price": 167500
+    },
+    {
+        "id":"gabinete02",
+        "title":"Gabinete Be Quiet! Dark Base PRO 900 Black",
+        "img": "./img/gabinetes/Gabinete_Be_Quiet__DARK_BASE_PRO_900_Black.jpg",
+        "category": {
+            "name": "Gabinetes",
+            "id":"gabinetes"
+        },
+        "price": 124500
+    },
+    {
+        "id":"gabinete03",
+        "title":"Gabinete Deepcool MACUBE 310P Black",
+        "img": "./img/gabinetes/Gabinete_Deepcool_MACUBE310P_Black.jpg",
+        "category": {
+            "name": "Gabinetes",
+            "id":"gabinetes"
+        },
+        "price": 43500
+    },
+    {
+        "id":"gabinete04",
+        "title":"Gabinete Deepcool MATREXX 50 ADD RGB 4F",
+        "img": "./img/gabinetes/Gabinete_Deepcool_MATREXX_50_ADD-RGB-4F.jpg",
+        "category": {
+            "name": "Gabinetes",
+            "id":"gabinetes"
+        },
+        "price": 42500
+    },
+    {
+        "id":"gabinete05",
+        "title":"Gabinete Kolink Inspire k3 RGB M-ATX Vidrio Templado",
+        "img": "./img/gabinetes/Gabinete_Kolink_Inspire_K3_RGB__M-ATX_Vidrio_Templado.jpg",
+        "category": {
+            "name": "Gabinetes",
+            "id":"gabinetes"
+        },
+        "price": 26500
+    },
+    {
+        "id":"gabinete06",
+        "title":"Gabinete Kit Overtech OV K910 500W Teclado Mouse y Parlantes de Regalo",
+        "img": "./img/gabinetes/Gabinete_Kit_Overtech_OV-K910_500W___Teclado_Mouse_y_Parlantes.jpg",
+        "category": {
+            "name": "Gabinetes",
+            "id":"gabinetes"
+        },
+        "price": 18500
+    },
+    {
+        "id":"discos01",
+        "title":"Disco Rigido WD 1TB Blue 64MB SATA 6.0GB/s",
+        "img": "./img/discos/Disco_R__gido_WD_1TB_BLUE_64MB_SATA_6.0GB_s.jpg",
+        "category": {
+            "name": "Discos",
+            "id":"discos"
+        },
+        "price": 9500
+    },
+    {
+        "id":"discos02",
+        "title":"Disco Solido SSD Crucial 500GB BX500 540MB/s",
+        "img": "./img/discos/Disco_S__lido_SSD_Crucial_500GB_BX500_540MB_s.jpg",
+        "category": {
+            "name": "discos",
+            "id":"discos"
+        },
+        "price": 14500
+    },
+    {
+        "id":"discos03",
+        "title":"Disco Solido SSD M.2 Kingston 500GB NV2 3500MB/s NVME PCI-E 4x",
+        "img": "./img/discos/Disco_S__lido_SSD_M.2_Kingston_500GB_NV2_3500MB_s_NVME_PCI-E_4x_.jpg",
+        "category": {
+            "name": "discos",
+            "id":"discos"
+        },
+        "price": 19500
+    },
+    {
+        "id":"discos04",
+        "title":"Disco Solido SSD Team 256GB GX2 530MB/s",
+        "img": "./img/discos/Disco_Solido_SSD_Team_256GB_GX2_530MB_s.jpg",
+        "category": {
+            "name": "discos",
+            "id":"discos"
+        },
+        "price": 12000
+    },
+    {
+        "id":"fuentes01",
+        "title":"Fuente Asus ROG THOR 850W 80 Plus Platinum 850 Full Modular",
+        "img": "./img/fuentes/Fuente_ASUS_ROG_THOR_850W_80_Plus_Platinum_850P_Full_modular.jpg",
+        "category": {
+            "name": "Fuentes de Alimentacion",
+            "id":"fuentes"
+        },
+        "price": 84500
+    },
+    {
+        "id":"fuentes02",
+        "title":"Fuente Asus TUF 550W 80 Plus Bronze",
+        "img": "./img/fuentes/Fuente_ASUS_TUF_550W_80_Plus_Bronze.jpg",
+        "category": {
+            "name": "Fuentes de Alimentacion",
+            "id":"fuentes"
+        },
+        "price": 33000
+    },
+    {
+        "id":"fuentes03",
+        "title":"Fuente Deepcool 700W DA700 80 Plus Bronze",
+        "img": "./img/fuentes/Fuente_Deepcool_700W_DA700_80_Plus_Bronz.jpg",
+        "category": {
+            "name": "Fuentes de Alimentacion",
+            "id":"fuentes"
+        },
+        "price": 29000
+    },
+    {
+        "id":"fuentes04",
+        "title":"Fuente Gigabyte 650W 80 Plus Bronze P650B",
+        "img": "./img/fuentes/Fuente_Gigabyte_650W_80_Plus_Bronze_P650B.jpg",
+        "category": {
+            "name": "Fuentes de Alimentacion",
+            "id":"fuentes"
+        },
+        "price": 32500
+    },
+    {
+        "id":"fuentes05",
+        "title":"Fuente ThermalTake Smart 500W 80 Plus White",
+        "img": "./img/fuentes/Fuente_Thermaltake_Smart_500W_80_Plus_White.jpg",
+        "category": {
+            "name": "Fuentes de Alimentacion",
+            "id":"fuentes"
+        },
+        "price": 24000
+    }
+
+]
