@@ -90,14 +90,14 @@ function loadCart(){
         boughtCart.classList.add("disabled");
         cartProductsContainer.innerHTML = "";
         loadProductsToCart();
-        cuotas.value = 0;
+        cuotas.value = 1;
         
     }else{
         emptyCart.classList.remove("disabled");
         cartProductsContainer.classList.add("disabled");
         cartActions.classList.add("disabled");
         boughtCart.classList.add("disabled");
-        cuotas.value = 0;
+        cuotas.value = 1;
 
     }
     updateDeleteBtn();
@@ -163,7 +163,7 @@ function clearCart (){
             localStorage.setItem("products-in-cart",JSON.stringify(cartProducts));
             updateLS();
             loadCart();
-            cuotas.value = 0;
+            cuotas.value = 1;
         }
     })
 
@@ -173,7 +173,7 @@ clearBtn.addEventListener("click", clearCart)
 
 function updateTotal(cuotas){
         const calculatedTotal = new TotalCarrito(cartProducts.reduce((i,product)=>i+(product.price*product.quantity),0));
-    if(cuotas == 0){ 
+    if(cuotas == 1){ 
         total.innerText = `$${calculatedTotal.getTotal()}`;
         cuota.innerText = `$${calculatedTotal.getTotal()}`; 
     }
@@ -206,7 +206,7 @@ function buyCart (){
     cartProductsContainer.classList.add("disabled");
     cartActions.classList.add("disabled");
     boughtCart.classList.remove("disabled");
-    cuotas.value = 0;
+    cuotas.value = 1;
     
 
 }
