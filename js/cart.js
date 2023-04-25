@@ -101,7 +101,7 @@ function loadCart(){
 
     }
     updateDeleteBtn();
-    updateTotal(0);
+    updateTotal(1);
 }
 
 
