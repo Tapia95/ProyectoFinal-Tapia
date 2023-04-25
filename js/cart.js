@@ -1,3 +1,33 @@
+class TotalCarrito {
+    constructor(total){
+        this.total=total;
+    }
+
+    getTotal(){
+        return this.total;
+    }
+
+    getCuotas(n){
+        if(n===3){
+            let result = (this.total*1.10)/3;
+            return result.toFixed(2);
+        }
+        if(n===6){
+            let result =(this.total*1.20)/6;
+            return result.toFixed(2);
+        }
+        if(n===12){
+            let result = (this.total*1.35)/12;
+            return result.toFixed(2);
+        }
+    }
+
+    getTotalCuotas(n){
+        return this.getCuotas(n)*n;
+    }
+
+}
+
 
 let cartProducts;
 
@@ -60,16 +90,18 @@ function loadCart(){
         boughtCart.classList.add("disabled");
         cartProductsContainer.innerHTML = "";
         loadProductsToCart();
+        cuotas.value = 0;
         
     }else{
         emptyCart.classList.remove("disabled");
         cartProductsContainer.classList.add("disabled");
         cartActions.classList.add("disabled");
         boughtCart.classList.add("disabled");
+        cuotas.value = 0;
 
     }
     updateDeleteBtn();
-    updateTotal();
+    updateTotal(0);
 }
 
 
@@ -131,6 +163,7 @@ function clearCart (){
             localStorage.setItem("products-in-cart",JSON.stringify(cartProducts));
             updateLS();
             loadCart();
+            cuotas.value = 0;
         }
     })
 
@@ -138,10 +171,31 @@ function clearCart (){
 
 clearBtn.addEventListener("click", clearCart)
 
-function updateTotal(){
-    const calculatedTotal = cartProducts.reduce((i,product)=>i+(product.price*product.quantity),0); 
-    total.innerText = `$${calculatedTotal}`; 
+function updateTotal(cuotas){
+        const calculatedTotal = new TotalCarrito(cartProducts.reduce((i,product)=>i+(product.price*product.quantity),0));
+    if(cuotas == 0){ 
+        total.innerText = `$${calculatedTotal.getTotal()}`;
+        cuota.innerText = `$${calculatedTotal.getTotal()}`; 
+    }
+    if(cuotas == 3){
+        total.innerText = `$${calculatedTotal.getTotalCuotas(3)}`;
+        cuota.innerText = `$${calculatedTotal.getCuotas(3)}`;
+    }
+    if(cuotas == 6){
+        total.innerText = `$${calculatedTotal.getTotalCuotas(6)}`;
+        cuota.innerText = `$${calculatedTotal.getCuotas(6)}`;
+    }
+    if(cuotas == 12){
+        total.innerText = `$${calculatedTotal.getTotalCuotas(12)}`;
+        cuota.innerText = `$${calculatedTotal.getCuotas(12)}`;
+    }
 }
+
+const cuotas = document.querySelector('#cuotas');
+
+cuotas.addEventListener('change',(e)=>{
+    updateTotal(e.currentTarget.value);
+});
 
 function buyCart (){
 
@@ -152,6 +206,7 @@ function buyCart (){
     cartProductsContainer.classList.add("disabled");
     cartActions.classList.add("disabled");
     boughtCart.classList.remove("disabled");
+    cuotas.value = 0;
     
 
 }
